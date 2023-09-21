@@ -74,7 +74,3 @@ class TimezoneConverter(APIView):
 
             return Response(response_data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-# m.roshan@giglabz.com
-# 9562745899
